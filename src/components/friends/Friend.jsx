@@ -16,7 +16,7 @@ const Friend = ({ id, image, name, balance }) => {
           My available balance is: {balance} taka.
         </p>
       </div>
-      <Button>Select</Button>
+      <Button bgColor="bg-blue-600">Select</Button>
     </li>
   );
 };
