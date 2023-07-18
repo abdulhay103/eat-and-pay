@@ -18,6 +18,7 @@ const FriendList = () => {
             />
           );
         })}
+        <Button bgColor="bg-orange-500">Add Friend</Button>
       </ul>
     </div>
   );
