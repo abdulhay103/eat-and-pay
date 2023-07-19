@@ -21,7 +21,7 @@ const FriendList = () => {
           );
         })}
         <AddFriend />
-        <Button bgColor="bg-orange-500">Add Friend</Button>
+        {/* <Button bgColor="bg-orange-500">Add Friend</Button> */}
       </ul>
     </div>
   );
