@@ -12,6 +12,7 @@ const FriendList = () => {
         {friends.map((friend) => {
           return (
             <Friend
+              key={friend.id}
               image={friend.image}
               name={friend.name}
               id={friend.id}
