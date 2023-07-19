@@ -2,6 +2,7 @@ import React from "react";
 import datas from "../../utilities/data";
 import Button from "../../utilities/Button";
 import Friend from "./friend";
+import AddFriend from "./AddFriend";
 
 const FriendList = () => {
   let friends = datas;
@@ -18,6 +19,7 @@ const FriendList = () => {
             />
           );
         })}
+        <AddFriend />
         <Button bgColor="bg-orange-500">Add Friend</Button>
       </ul>
     </div>
